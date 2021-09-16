@@ -1,0 +1,59 @@
+/* -------------------- ОБНУЛЕНИЕ СТИЛЕЙ ----------------------- */
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+/* --------------------// ОБНУЛЕНИЕ СТИЛЕЙ //----------------------- */
+
+.header__title {
+	color: orange;
+}
+div p {
+	color: blue;
+}
+div > p {
+	color: purple;
+}
+div + p {
+	color: green;
+}
+.text-block__list span {
+	color: hotpink;
+}
+.text-bloc p {
+	color: olivedrab;
+}
+h2 + div > div > a {
+	color: goldenrod;
+}
+nav div a {
+	color: rosybrown;
+}
+nav ~ h2 {
+	color: turquoise;
+}
