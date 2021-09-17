@@ -64,3 +64,8 @@ nav ~ h2 {
 nav ~ div a:link {
 	font-size: 30px;
 }
+h1 + hr {
+	height: 2px;
+	background-color: rosybrown;
+	margin: 0 auto;
+}
